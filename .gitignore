@@ -1,2 +1,4 @@
 # Ignore all .exe files in all folders
 *.exe
+*.php
+*.html
