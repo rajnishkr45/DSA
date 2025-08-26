@@ -42,5 +42,7 @@ int main()
         }
     }
 
+    // Not a good approach => T(n) = O(n^2)
+
     return 0;
 }

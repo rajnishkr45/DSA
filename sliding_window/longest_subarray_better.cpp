@@ -1,7 +1,7 @@
 // Find the longest subarray where the sum <= 15
 // n = lenght of array
 
-// Better approach
+// Better approach => T(n) = O(2*n)
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -38,5 +38,6 @@ int main()
     //     }
     // }
 
+    // For optimal answer just replace while with if and it will be => T(n) = O(n)
     return 0;
 }
