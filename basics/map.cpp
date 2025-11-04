@@ -1,6 +1,7 @@
 #include <iostream>
 #include <map>
 #include <unordered_map>
+#include <bits/stdc++.h> // It imports all library
 using namespace std;
 int main()
 {
@@ -45,13 +46,23 @@ int main()
     cout << m.size() << endl;
 
     // Iterator : to excess full map
-    unordered_map<string, int>::iterator it = m.begin();
+    // unordered_map<string, int>::iterator it;
 
-    while (it != m.end())
+    // it = m.begin();
+    // // while (it != m.end())
+    // // {
+    // //     cout << it->first << ": " << it->second << endl;
+    // //     it++;
+    // // }
+
+    // for (it ; it != m.end(); it++){
+    //     cout<< it->first <<" "<<it->second<<endl;
+    // }
+
+    // pr means pair here
+    for (auto &pr : m) // & -> stops making the copy
     {
-        cout << it->first << ": " << it->second << endl;
-        it++;
+        cout << pr.first << " " << pr.second << endl;
     }
-
     return 0;
 }
