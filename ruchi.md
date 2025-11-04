@@ -1,8 +1,11 @@
 ## 📝 NEET 2026 Time-Optimized Study Plan (Nov 4, 2024 – May 3, 2026)
 
 **Goal: 620+ Marks**
+
 **Focus: Time Allocation Based on Chapter Difficulty (H: 4 days, M: 3 days, E: 2 days)**
+
 **Daily Study: 6 Hours (3 hrs Biology | 1.5 hrs Physics | 1.5 hrs Chemistry)**
+
 **Exam Date: May 3, 2026**
 
 ---
