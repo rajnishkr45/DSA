@@ -55,3 +55,50 @@ int main()
 
     return 0;
 }
+
+/*
+#include <iostream>
+using namespace std;
+
+// Abstract class
+class Vehicle
+{
+public:
+    // Pure virtual function
+    virtual void start() = 0;
+};
+
+// Derived class
+class Car : public Vehicle
+{
+public:
+    void start()
+    {
+        cout << "Car starts with key" << endl;
+    }
+};
+
+class Bike : public Vehicle
+{
+public:
+    void start()
+    {
+        cout << "Bike starts with kick" << endl;
+    }
+};
+
+int main()
+{
+    Vehicle* v;
+
+    Car c;
+    Bike b;
+
+    v = &c;
+    v->start();
+
+    v = &b;
+    v->start();
+
+    return 0;
+}*/
